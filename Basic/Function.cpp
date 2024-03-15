@@ -46,6 +46,7 @@ int main()
       cout << "odd" << endl;
    }
 
+
    cout << "prime : ";
    if (PrimeOrNot(n))
    {
