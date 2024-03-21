@@ -4,6 +4,8 @@
       "ostream": "cpp",
       "deque": "cpp",
       "string": "cpp",
-      "vector": "cpp"
+      "vector": "cpp",
+      "bitset": "cpp",
+      "unordered_map": "cpp"
    }
 }
