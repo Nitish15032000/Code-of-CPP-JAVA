@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 
+double finalans(int ans){
+   
+}
+
 double findroot(int num){
    int start = 0;
    int end = num;
@@ -21,9 +25,9 @@ double findroot(int num){
       }
    }
 
-   double finalans(ans);
+   double fans = finalans(ans);
 
-   return ans;
+   return fans;
 }
 
 int main(){
