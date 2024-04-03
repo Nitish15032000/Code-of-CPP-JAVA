@@ -8,7 +8,8 @@ string removeOccurrences(string s, string part)
    int partlen = part.length();
    while (fi != -1)
    {
-      s.erase(s.begin() + fi, s.begin() + fi + partlen);
+      // s.erase(s.begin() + fi, s.begin() + fi + partlen);
+      s.erase(fi, part.length());
       fi = s.find(part);
    }
    return s;
@@ -24,7 +25,6 @@ int main()
    string ans = removeOccurrences(s , part);
 
    cout << "ans = " <<ans << endl;
-   
    // int fi = s.find(part);
    // while (fi != -1)
    // {
